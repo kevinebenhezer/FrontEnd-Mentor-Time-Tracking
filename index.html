@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script defer src="./script.js"></script>
+
+		<title>Frontend Mentor | Time tracking dashboard</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="card one">
+				<div class="card-one__body">
+					<img src="./images/image-jeremy.png" alt="image-jeremy" />
+					<div class="bottom">
+						<small>Report for</small>
+						<h1>Jeremy Robson</h1>
+					</div>
+				</div>
+				<div class="wrapper-a">
+					<p id="daily">Daily</p>
+					<p class="active" id="weekly">Weekly</p>
+					<p id="monthly">Monthly</p>
+				</div>
+			</div>
+			<!-- WORK -->
+			<div class="card two">
+				<div class="wrapper wrapper-b"></div>
+				<div class="card-body work">
+					<div class="card-title">
+						<p>Work</p>
+						<img src="./images/icon-ellipsis.svg" alt="" />
+					</div>
+					<div class="card-main">
+						<p id="work-hours">32hrs</p>
+						<span id="work-previous-hours">Last Week - 36hrs</span>
+					</div>
+				</div>
+			</div>
+			<!-- PLAY -->
+			<div class="card three">
+				<div class="wrapper wrapper-c"></div>
+				<div class="card-body play">
+					<div class="card-title">
+						<p>Play</p>
+						<img src="./images/icon-ellipsis.svg" alt="" />
+					</div>
+					<div class="card-main">
+						<p id="play-hours">10hrs</p>
+						<span id="play-previous-hours">Last Week - 8hrs</span>
+					</div>
+				</div>
+			</div>
+			<!-- STUDY -->
+			<div class="card four">
+				<div class="wrapper wrapper-d"></div>
+				<div class="card-body study">
+					<div class="card-title">
+						<p>Study</p>
+						<img src="./images/icon-ellipsis.svg" alt="" />
+					</div>
+					<div class="card-main">
+						<p id="study-hours">4hrs</p>
+						<span id="study-previous-hours">Last Week - 7hrs</span>
+					</div>
+				</div>
+			</div>
+			<!-- EXERCISE -->
+			<div class="card five">
+				<div class="wrapper wrapper-e"></div>
+				<div class="card-body exercise">
+					<div class="card-title">
+						<p>Exercise</p>
+						<img src="./images/icon-ellipsis.svg" alt="" />
+					</div>
+					<div class="card-main">
+						<p id="exercise-hours">4hrs</p>
+						<span id="exercise-previous-hours">Last Week - 5hrs</span>
+					</div>
+				</div>
+			</div>
+			<!-- SOCIAL -->
+			<div class="card six">
+				<div class="wrapper wrapper-f"></div>
+				<div class="card-body social">
+					<div class="card-title">
+						<p>Social</p>
+						<img src="./images/icon-ellipsis.svg" alt="" />
+					</div>
+					<div class="card-main">
+						<p id="social-hours">5hrs</p>
+						<span id="social-previous-hours">Last Week - 10hrs</span>
+					</div>
+				</div>
+			</div>
+			<!-- SELFCARE -->
+			<div class="card seven">
+				<div class="wrapper wrapper-g"></div>
+				<div class="card-body selfcare">
+					<div class="card-title">
+						<p>Self Care</p>
+						<img src="./images/icon-ellipsis.svg" alt="" />
+					</div>
+					<div class="card-main">
+						<p id="selfcare-hours">2hrs</p>
+						<span id="selfcare-previous-hours">Last Week - 2hrs</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+			<a href="https://github.com/kevinebenhezer">Kevin Ebenhezer</a>.
+		</div>
+	</body>
+</html>
