@@ -280,7 +280,7 @@ body {
 
 .wrapper.wrapper-b {
 	background-color: var(--clr-work);
-	background-image: url(icon-work.svg);
+	background-image: url(./icon-work.svg);
 	background-repeat: no-repeat;
 	background-size: 3.5rem;
 	background-position: right 12px top -5px;
@@ -288,7 +288,7 @@ body {
 
 .wrapper.wrapper-c {
 	background-color: var(--clr-play);
-	background-image: url(icon-play.svg);
+	background-image: url(./icon-play.svg);
 	background-repeat: no-repeat;
 	background-size: 3.5rem;
 	background-position: right 12px top -5px;
@@ -296,7 +296,7 @@ body {
 
 .wrapper.wrapper-d {
 	background-color: var(--clr-study);
-	background-image: url(icon-study.svg);
+	background-image: url(./icon-study.svg);
 	background-repeat: no-repeat;
 	background-size: 3.5rem;
 	background-position: right 12px top -5px;
@@ -304,7 +304,7 @@ body {
 
 .wrapper.wrapper-e {
 	background-color: var(--clr-exercise);
-	background-image: url(icon-exercise.svg);
+	background-image: url(./icon-exercise.svg);
 	background-repeat: no-repeat;
 	background-size: 4rem;
 	background-position: right 12px top 1px;
@@ -312,7 +312,7 @@ body {
 
 .wrapper.wrapper-f {
 	background-color: var(--clr-social);
-	background-image: url(icon-social.svg);
+	background-image: url(./icon-social.svg);
 	background-repeat: no-repeat;
 	background-size: 3.5rem;
 	background-position: right 12px top -10px;
@@ -320,7 +320,7 @@ body {
 
 .wrapper.wrapper-g {
 	background-color: var(--clr-selfCare);
-	background-image: url(icon-self-care.svg);
+	background-image: url(./icon-self-care.svg);
 	background-repeat: no-repeat;
 	background-size: 3.5rem;
 	background-position: right 12px top -10px;
